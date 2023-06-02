@@ -1,46 +1,35 @@
 * {
   box-sizing: border-box;
 }
-
 body {
-  background-color: #474e5d;
   font-family: Helvetica, sans-serif;
-  background-color: black;
+  background-color: #000;
   width: 1861px;
 }
-
 @font-face {
   font-family: NotoSerif;
   src: url(/fonts/NotoSerif-BoldItalic.ttf);
 }
-
 @font-face {
   font-family: PlayfairBi;
   src: url(/fonts/PlayfairDisplay-BlackItalic.ttf);
 }
-
 @font-face {
   font-family: Yrsa;
   src: url(/fonts/Yrsa-Light.ttf);
 }
-
 .container .content h2 {
-  font-family: NotoSerif;
-  font-size: xx-large;
+  font: xx-large "NotoSerif", sans-serif;
 }
-
 .container .content p {
-  font-family: Yrsa;
+  font: 25px "Yrsa", sans-serif;
   text-indent: 30px;
-  font-size: 25px;
 }
-
 .img-thumbnail {
   display: block;
   width: 100%;
   height: 100%;
 }
-
 .img_container {
   overflow: hidden;
   object-fit: cover;
@@ -50,75 +39,66 @@ body {
   height: auto;
   float: right;
   position: relative;
-  margin: 20px;
-  margin-right: 10px;
+  margin: 20px 10px 20px 20px;
 }
-
 .wrapper {
   width: 100%;
-  background-repeat: no-repeat;
+  background: no-repeat fixed;
   background-size: cover;
-  background-attachment: fixed;
   animation: change_bgImg;
   animation-iteration-count: infinite;
   animation-duration: 30s;
   animation-timing-function: ease-in;
 }
-
 .lichsu {
-  font-family: PlayfairBI;
+  font: 60px "PlayfairBI", sans-serif;
   padding: 30px;
   border-radius: 23px;
-  font-size: 60px;
-  border: 5px solid rgb(31, 27, 22);
-  background-color: white;
+  border: #1f1b16;
+  background-color: #fff;
   text-align: center;
   width: 80%;
   margin: 40px auto;
 }
-
 .timeline {
   clear: both;
   position: relative;
   max-width: 80%;
   margin: 0 auto;
 }
-
 @keyframes change_bgImg {
   0% {
-    background-image: url(/images/VnExpress-Saigon1920-1_1589840746.png);
+    background-image: url(/images/VnExpress-Saigon1920-1_1589840746.webp);
   }
   17% {
-    background-image: url(/images/VnExpress-Saigon1920-2_1589840850.jpg);
+    background-image: url(/images/VnExpress-Saigon1920-2_1589840850.webp);
   }
   34% {
-    background-image: url(/images/VnExpress-Saigon1920-3_1589840875.jpg);
+    background-image: url(/images/VnExpress-Saigon1920-3_1589840875.webp);
   }
   51% {
-    background-image: url(/images/VnExpress-Saigon1920-4_1589840899.jpg);
+    background-image: url(/images/VnExpress-Saigon1920-4_1589840899.webp);
   }
   67% {
-    background-image: url(/images/VnExpress-Saigon1920-5_1589840924.jpg);
+    background-image: url(/images/VnExpress-Saigon1920-5_1589840924.webp);
   }
   83% {
-    background-image: url(/images/VnExpress-Saigon1920-6_1589840950.jpg);
+    background-image: url(/images/VnExpress-Saigon1920-6_1589840950.webp);
   }
   100% {
-    background-image: url(/images/VnExpress-Saigon1920-1_1589840746.png);
+    background-image: url(/images/VnExpress-Saigon1920-1_1589840746.webp);
   }
 }
-
 .timeline::after {
   content: "";
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #fff;
   top: 0;
   bottom: 0;
   left: 50%;
   margin-left: -3px;
 }
-
 .container {
   clear: both;
   padding: 10px 40px;
@@ -127,28 +107,24 @@ body {
   width: 50%;
   font-size: large;
 }
-
 .container::after {
   content: "";
   position: absolute;
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
+  background-color: #fff;
   border: 4px solid #ff9f55;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
 }
-
 .left {
   left: 0;
 }
-
 .right {
   left: 50%;
 }
-
 .left::before {
   content: "";
   height: 0;
@@ -157,11 +133,10 @@ body {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid #fff;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent #fff;
 }
-
 .right::before {
   content: " ";
   height: 0;
@@ -170,30 +145,26 @@ body {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid #fff;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #fff transparent transparent;
 }
-
 .right::after {
   left: -16px;
 }
-
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: #fff;
   position: relative;
   border-radius: 6px;
 }
-
 header {
   height: 400px;
   width: 100%;
-  border: 2px solid white;
+  border: 2px solid #fff;
   background-color: #2e3138;
   border-radius: 25px 25px 0px 0px;
 }
-
 .header {
   display: flex;
   margin: auto;
@@ -201,7 +172,6 @@ header {
   width: 70%;
   align-items: center;
 }
-
 #backToHome {
   width: 200px;
   text-decoration: none;
@@ -209,15 +179,14 @@ header {
   border-radius: 23px;
   font-size: 24px;
   font-weight: bold;
-  border: 5px solid rgb(31, 27, 22);
-  background-color: white;
+  border: #1f1b16;
+  background-color: #fff;
   text-align: center;
   margin-left: 40px;
   float: left;
   clear: left;
   color: #474e5d;
 }
-
 footer {
   font-family: "Times New Roman", Times, serif;
   background: #2e3138;
@@ -226,7 +195,6 @@ footer {
   padding-top: 40px;
   color: #fff;
 }
-
 .footer-content {
   display: flex;
   align-items: center;
@@ -234,13 +202,11 @@ footer {
   flex-direction: column;
   text-align: center;
 }
-
 .footer-content h3 {
   font-size: 2.1rem;
   font-weight: 500;
   line-height: 3rem;
 }
-
 .footer-content p {
   max-width: 800px;
   margin: 10px auto;
@@ -248,37 +214,31 @@ footer {
   font-size: 24px;
   color: #cacdd2;
 }
-
 .socials {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 1rem 0 3rem;
 }
-
 .socials li {
   margin: 0 10px;
 }
-
 .socials a {
   text-decoration: none;
   color: #fff;
-  border: 1.1px solid white;
+  border: 1.1px solid #fff;
   padding: 5px;
   border-radius: 50%;
 }
-
 .socials a i {
   font-size: 1.1rem;
   width: 20px;
   transition: color 0.4s ease;
 }
-
 .socials a:hover i {
   color: #383d49;
 }
-
 .footer-bottom {
   background: #000;
   width: 100%;
@@ -286,13 +246,11 @@ footer {
   padding: 20px;
   text-align: left;
 }
-
 .footer-bottom p {
   font-size: 18px;
   line-height: 0;
   text-transform: capitalize;
 }
-
 .float_btn {
   transition: all 0.5s ease;
   font-size: large;
@@ -300,8 +258,8 @@ footer {
   width: 100px;
   bottom: 40px;
   right: 40px;
-  background-color: rgb(50, 65, 61);
-  color: white;
+  background-color: #32413d;
+  color: #fff;
   border-radius: 50px;
   text-align: center;
   box-shadow: 2px 2px 3px #999;

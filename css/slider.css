@@ -1,126 +1,104 @@
 body,
 head {
   font-family: "Times New Roman", Times, serif;
-  background-color: black;
+  background-color: #000;
   width: 1861px;
 }
-
 @font-face {
   font-family: CharisSIL-Regular;
   src: url(/fonts/CharisSIL-Regular.ttf);
 }
-
 * {
   box-sizing: border-box;
 }
-
 .splide__slide img {
   width: 1000px;
   height: 500px;
 }
-
 .title_ducba {
   color: #4e4f53;
   background-color: #378bb5;
 }
-
 .title_ddl {
   color: #dfdddc;
   background-color: #82951b;
 }
-
 .title_bnr {
   color: #b5ccdf;
   background-color: #9c6058;
 }
-
 .title_btm {
   color: #333028;
   background-color: #e0e2e8;
 }
-
 .title_lm81 {
   color: #e1b994;
   background-color: #323433;
 }
-
 .title_tcv {
   color: #a1b18d;
   background-color: #252c15;
 }
-
 .title {
   text-align: center;
-  font-family: Alfa-Slab-One;
-  font-size: 35px;
+  font: 35px "Alfa-Slab-One", sans-serif;
   border-radius: 22px;
   width: 65%;
   display: block;
   margin: auto;
 }
-
 .splide {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 .gioithieu {
-  font-family: CharisSIL-Regular;
-  padding: 45px 45px;
+  font: 26px "CharisSIL-Regular", sans-serif;
+  padding: 45px;
   width: 20%;
   text-indent: 50px;
   text-align: justify;
   margin-top: 20px;
-  font-size: 26px;
   width: 1000px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
 }
-
 .gioithieu_lm81 {
   border: 3px solid #c78363;
   background-color: #f8ecdd;
   color: #604936;
 }
-
 .gioithieu_tcv {
   border: 3px solid #2b2f20;
   background-color: #d9ddd0;
   color: #141c10;
 }
-
 .gioithieu_ddl {
   border: 3px solid #b1b1af;
   background-color: #ddd9d9;
   color: #627215;
 }
-
 .gioithieu_ducba {
   border: 3px solid #493525;
   background-color: #4895bc;
 }
-
 .gioithieu_bnr {
   border: 3px solid #5d4b52;
   background-color: #b0d9ed;
 }
-
 .gioithieu_btm {
   border: 3px solid #5d6911;
   background-color: #aba599;
   color: #2c3408;
 }
-
 .slide {
   height: 500px;
   width: 100%;
 }
-
 .body_tcv {
-  background: rgb(142, 185, 43);
+  background: #8eb92b;
   background: linear-gradient(
     -45deg,
     #92998b,
@@ -133,9 +111,8 @@ head {
   animation: gradient 15s ease infinite;
   height: auto;
 }
-
 .body_ddl {
-  background: rgb(142, 185, 43);
+  background: #8eb92b;
   background: linear-gradient(
     -45deg,
     #494024,
@@ -148,9 +125,8 @@ head {
   animation: gradient 15s ease infinite;
   height: auto;
 }
-
 .body_lm81 {
-  background: rgb(142, 185, 43);
+  background: #8eb92b;
   background: linear-gradient(
     -45deg,
     #343944,
@@ -163,9 +139,8 @@ head {
   animation: gradient 15s ease infinite;
   height: auto;
 }
-
 .body_ducba {
-  background: rgb(142, 185, 43);
+  background: #8eb92b;
   background: linear-gradient(
     -45deg,
     #1b2c23,
@@ -178,9 +153,8 @@ head {
   animation: gradient 15s ease infinite;
   height: auto;
 }
-
 .body_btm {
-  background: rgb(142, 185, 43);
+  background: #8eb92b;
   background: linear-gradient(
     -45deg,
     #070807,
@@ -193,9 +167,8 @@ head {
   animation: gradient 15s ease infinite;
   height: auto;
 }
-
 .body_bnr {
-  background: rgb(142, 185, 43);
+  background: #8eb92b;
   background: linear-gradient(
     -45deg,
     #111914,
@@ -208,7 +181,6 @@ head {
   animation: gradient 15s ease infinite;
   height: auto;
 }
-
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -220,7 +192,6 @@ head {
     background-position: 0% 50%;
   }
 }
-
 .a_backToHome {
   top: 40%;
   left: 60px;
@@ -230,49 +201,41 @@ head {
   border-radius: 30px;
   font-size: 30px;
 }
-
 .a_ddl {
   background-color: #9fb378;
   border: 2px solid #282921;
   color: #4b514a;
 }
-
 .a_bnr {
   background-color: #c2e2f1;
   border: 2px solid #1a1e22;
   color: #42272b;
 }
-
 .a_btm {
   background-color: #5d6911;
   border: 2px solid #869dba;
   color: #bfc8d4;
 }
-
 .a_ducba {
   background-color: #659cc1;
   border: 2px solid #ac7761;
   color: #1b2c23;
 }
-
 .a_lm81 {
   background-color: #ecb17c;
   border: 2px solid #655441;
   color: #4a3c38;
 }
-
 .a_tcv {
   background-color: #75837e;
   border: 2px solid #a1b18d;
   color: #b4ba79;
 }
-
 @font-face {
   font-family: Alfa-Slab-One;
   src: url(/fonts/AlfaSlabOne-Regular.ttf);
   font-weight: bold;
 }
-
 header {
   border: 1px solid transparent;
   height: 300px;
@@ -282,15 +245,13 @@ header {
   align-items: center;
   border-radius: 0px 0px 30px 30px;
 }
-
 footer {
   height: auto;
   width: 100%;
   padding-top: 40px;
-  color: white;
+  color: #fff;
   background-color: transparent;
 }
-
 .footer-content {
   display: flex;
   align-items: center;
@@ -298,37 +259,29 @@ footer {
   flex-direction: column;
   text-align: center;
 }
-
 .footer-content-bnr h3 {
   color: #9c6058;
 }
-
 .footer-content-btm h3 {
-  color: white;
+  color: #fff;
 }
-
 .footer-content-ddl h3 {
-  color: white;
+  color: #fff;
 }
-
 .footer-content-ducba h3 {
-  color: white;
+  color: #fff;
 }
-
 .footer-content-lm81 h3 {
-  color: white;
+  color: #fff;
 }
-
 .footer-content-tcv h3 {
-  color: white;
+  color: #fff;
 }
-
 .footer-content h3 {
   font-weight: bold;
   font-size: 2.1rem;
   line-height: 3rem;
 }
-
 .footer-content p {
   max-width: 800px;
   margin: 10px auto;
@@ -336,81 +289,64 @@ footer {
   font-size: 26px;
   font-weight: bold;
 }
-
 .footer-content-bnr p {
   color: #9c6058;
 }
-
 .footer-content-btm p {
-  color: white;
+  color: #fff;
 }
-
 .footer-content-ddl p {
-  color: white;
+  color: #fff;
 }
-
 .footer-content-ducba p {
-  color: white;
+  color: #fff;
 }
-
 .footer-content-lm81 p {
-  color: white;
+  color: #fff;
 }
-
 .footer-content-tcv p {
-  color: white;
+  color: #fff;
 }
-
 .socials {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 1rem 0 3rem;
 }
-
 .socials-bnr a:hover i {
   color: #b36358;
 }
-
 .socials-btm a:hover i {
   color: #5d6911;
 }
-
 .socials-ddl a:hover i {
-  color: rgb(142, 185, 43);
+  color: #8eb92b;
 }
-
 .socials-ducba a:hover i {
   color: #4e4f53;
 }
-
 .socials-lm81 a:hover i {
   color: #ecb17c;
 }
-
 .socials-tcv a:hover i {
   color: #252c15;
 }
-
 .socials li {
   margin: 0 10px;
 }
-
 .socials a {
   text-decoration: none;
   color: #fff;
-  border: 1.1px solid white;
+  border: 1.1px solid #fff;
   padding: 5px;
   border-radius: 50%;
 }
-
 .socials a i {
   font-size: 1.1rem;
   width: 20px;
   transition: color 0.4s ease;
 }
-
 .footer-bottom {
   background: #000;
   width: 100%;
@@ -418,7 +354,6 @@ footer {
   padding: 20px;
   text-align: left;
 }
-
 .footer-bottom p {
   font-size: 18px;
   line-height: 0;
