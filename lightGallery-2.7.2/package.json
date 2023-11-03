@@ -142,7 +142,7 @@
     "jest-config": "^26.6.3",
     "lint-staged": "^15.0.2",
     "lodash.camelcase": "^4.3.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^9.0.0",
     "nodemon": "^2.0.4",
     "prettier": "^2.1.2",
     "prompt": "^1.0.0",
